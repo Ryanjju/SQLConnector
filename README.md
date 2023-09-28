@@ -20,7 +20,7 @@
     * **Aktiviere die virtuelle Umgebung:**
         * **Windows:** 
             ```shell 
-            db\Scripts\activate
+            .db\Scripts\activate
             ```
 
         * **MacOS / Linux:** 
