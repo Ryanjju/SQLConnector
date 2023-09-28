@@ -41,7 +41,7 @@
 
  * **Funktionen:**
    
-   | Methode               | Beschreibung                                        |
+   | Methode               | Beschreibung                                           |
    |-----------------------|--------------------------------------------------------|
    | `connect`             | Verbinden mit der Datenbank                            |
    | `close`               | Verbindung schließen                                   |
