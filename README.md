@@ -39,23 +39,28 @@
 
 ## Methoden
 
-* **Funktionen:**
-  * `connect` - Verbinden mit Datenbank
-  * `close` - Verbindung schließen
-  * `execute` - Befehl auführen
-  * `fetch_all` - Alle Zeilen aus dem Ergebnis einer SQL-Abfrage abzurufen
-  * `fetch_many` - Bestimmte anzahl an Zeilen ausgeben
-  * `create_table` - Erstelle eine Tabelle
-  * `drop_table` - Tabelle löschen
-  * `insert_data` - Daten einfügen
-  * `update_data` - Tabelle aktualisieren
-  * `delet_data` - Daten löschen
-  * `get_colum_names` - Spalten Name ausgeben
-  * `count_rows` - Anzahl von Reihen ausgeben
-  * `execute_script` - SQL-Skript ausführen
-  * `create_index` - Selbständige Datenstruktur erstellen
-  * `create_unique_index` - Eindeutige Datenstruktur erstellen
-  * `add_column` -  Spalte hinzufügen
+ * **Funktionen:**
+   
+   | Methode               | Beschreibung                                        |
+   |-----------------------|--------------------------------------------------------|
+   | `connect`             | Verbinden mit der Datenbank                            |
+   | `close`               | Verbindung schließen                                   |
+   | `execute`             | Befehl ausführen                                       |
+   | `fetch_all`           | Alle Zeilen aus dem Ergebnis einer SQL-Abfrage abrufen |
+   | `fetch_many`          | Eine bestimmte Anzahl von Zeilen ausgeben              |
+   | `create_table`        | Eine Tabelle erstellen                                 |
+   | `drop_table`          | Tabelle löschen                                        |
+   | `insert_data`         | Daten einfügen                                         |
+   | `update_data`         | Tabelle aktualisieren                                  |
+   | `delete_data`         | Daten löschen                                          |
+   | `get_column_names`    | Spaltennamen ausgeben                                  |
+   | `count_rows`          | Anzahl der Zeilen ausgeben                             |
+   | `execute_script`      | SQL-Skript ausführen                                   |
+   | `create_index`        | Eigenständige Datenstruktur erstellen                  |
+   | `create_unique_index` | Eindeutige Datenstruktur erstellen                     |
+   | `add_column`          | Spalte hinzufügen                                      |
+
+
 
 
     
